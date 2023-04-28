@@ -10,5 +10,6 @@ import lombok.NoArgsConstructor;
 public class EmployeeDTO {
     private int empID;
     private String empName;
+    private String empAddress;
     private String empNumber;
 }

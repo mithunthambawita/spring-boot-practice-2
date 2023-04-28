@@ -15,5 +15,6 @@ public class Employee {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int empID;
     private String empName;
+    private String empAddress;
     private String empNumber;
 }
